@@ -62,8 +62,8 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="filtering bg-white py-8">
-        <div className="relative">
+      <section className="filtering bg-white py-8 relative rounded-t-3xl -top-10 z-20">
+        <div className="relative" id="search-filtering-section">
           <div className="flex justify-center items-center">
             <div className="px-1">
               <p className="text-[#ccaf7a] pb-3 text-left">Building Type</p>
