@@ -200,7 +200,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="">
+      <section className="pb-8">
         <div className="flex justify-center">
           <div className="pl-28 w-1/2">
             <h1 className="text-[30px] py-3">
