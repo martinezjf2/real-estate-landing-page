@@ -128,16 +128,16 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="py-16  w-3/4 mx-auto" id="handpicked-properties">
+        <div className="py-16  w-11/12 mx-auto" id="handpicked-properties">
           <div className="flex justify-center">
             <div className="text-left">
-              <h1 className="text-[2rem] leading-tight pr-5">
-                Handpicked Properties
+              <h1 className="text-[2rem] leading-tight pr-9">
+                Handpicked <br></br>Properties
               </h1>
             </div>
-            <div className="w-4/6 py-1 px-1">
+            <div className="w-4/6 py-1 pl-14">
               <p className="font-bold">LOCK ICON</p>
-              <p>
+              <p className="">
                 Browse our exclusive selection of top-rated properties. From
                 modern apartments in the city to spacious homes in the suburbs,
                 we have something to suit every lifestyle and budget.
@@ -155,8 +155,14 @@ export default function Home() {
                 backgroundPosition: "center", // Centers the image within the div
                 backgroundRepeat: "no-repeat",
               }}
-              className="h-[260px] w-1/3 rounded-2xl"
-            ></div>
+              className="h-[260px] w-1/3 rounded-2xl relative group overflow-hidden"
+            >
+              {/* Overlay for house information */}
+              <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 p-4 text-white transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+                <h3 className="text-lg font-semibold">Heaven House</h3>
+                <p className="text-sm">3 bed, 2 bath · 2,000 sqft</p>
+              </div>
+            </div>
             <div
               style={{
                 backgroundImage: "url('/houses/grasshouse.jpeg')",
@@ -164,17 +170,29 @@ export default function Home() {
                 backgroundPosition: "center", // Centers the image within the div
                 backgroundRepeat: "no-repeat",
               }}
-              className="h-[260px] w-1/3 rounded-2xl"
-            ></div>
+              className="h-[260px] w-1/3 rounded-2xl relative group overflow-hidden"
+            >
+              {/* Overlay for house information */}
+              <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 p-4 text-white transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+                <h3 className="text-lg font-semibold">Heaven House</h3>
+                <p className="text-sm">3 bed, 2 bath · 2,000 sqft</p>
+              </div>
+            </div>
             <div
               style={{
                 backgroundImage: "url('/houses/heavenHouse.jpeg')",
-                backgroundSize: "cover", // Ensures the image covers the entire div
-                backgroundPosition: "center", // Centers the image within the div
+                backgroundSize: "cover",
+                backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
               }}
-              className="h-[260px] w-1/3 rounded-2xl"
-            ></div>
+              className="h-[260px] w-1/3 rounded-2xl relative group overflow-hidden"
+            >
+              {/* Overlay for house information */}
+              <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 p-4 text-white transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+                <h3 className="text-lg font-semibold">Heaven House</h3>
+                <p className="text-sm">3 bed, 2 bath · 2,000 sqft</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
