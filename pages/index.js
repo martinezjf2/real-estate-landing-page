@@ -68,7 +68,7 @@ export default function Home() {
             <div className="px-1">
               <p className="text-[#ccaf7a] pb-3 text-left">Building Type</p>
               <select
-                className="border border-gray-200 rounded-full bg-[#f2f2f2] text-[14px] pr-32 focus:outline-none focus:ring-2 focus:ring-[#ccaf7a] focus:border-[#ccaf7a] text-gray-700 w-full"
+                className="border border-gray-200 rounded-full bg-[#f2f2f2] text-[14px] w-52 focus:outline-none focus:ring-2 focus:ring-[#ccaf7a] focus:border-[#ccaf7a] text-gray-700 w-full"
                 name="cars"
                 id="cars"
               >
@@ -81,7 +81,7 @@ export default function Home() {
             <div className="px-1">
               <p className="text-[#ccaf7a] pb-3 text-left">Category</p>
               <select
-                className="border border-gray-200 rounded-full bg-[#f2f2f2] text-[14px] pr-32 focus:outline-none focus:ring-2 focus:ring-[#ccaf7a] focus:border-[#ccaf7a] text-gray-700 w-full"
+                className="border border-gray-200 rounded-full bg-[#f2f2f2] text-[14px] w-52 focus:outline-none focus:ring-2 focus:ring-[#ccaf7a] focus:border-[#ccaf7a] text-gray-700 w-full"
                 name="cars"
                 id="cars"
               >
@@ -94,7 +94,7 @@ export default function Home() {
             <div className="px-1">
               <p className="text-[#ccaf7a] pb-3 text-left">Location</p>
               <select
-                className="border border-gray-200 rounded-full bg-[#f2f2f2] text-[14px] pr-32 focus:outline-none focus:ring-2 focus:ring-[#ccaf7a] focus:border-[#ccaf7a] text-gray-700 w-full"
+                className="border border-gray-200 rounded-full bg-[#f2f2f2] text-[14px] w-52 focus:outline-none focus:ring-2 focus:ring-[#ccaf7a] focus:border-[#ccaf7a] text-gray-700 w-full"
                 name="cars"
                 id="cars"
               >
@@ -107,7 +107,7 @@ export default function Home() {
             <div className="px-1">
               <p className="text-[#ccaf7a] pb-3 text-left">Style</p>
               <select
-                className="border border-gray-200 rounded-full bg-[#f2f2f2] text-[14px] pr-32 focus:outline-none focus:ring-2 focus:ring-[#ccaf7a] focus:border-[#ccaf7a] text-gray-700 w-full"
+                className="border border-gray-200 rounded-full bg-[#f2f2f2] text-[14px] w-52 focus:outline-none focus:ring-2 focus:ring-[#ccaf7a] focus:border-[#ccaf7a] text-gray-700 w-full"
                 name="cars"
                 id="cars"
               >
@@ -124,6 +124,24 @@ export default function Home() {
               >
                 Search
               </a>
+            </div>
+          </div>
+        </div>
+
+        <div className="handpicked-properties py-16 px-7">
+          <div className="flex justify-center">
+            <div className="px-3">
+              <h1 className="text-[2rem] leading-tight">
+                Handpicked Properties
+              </h1>
+            </div>
+            <div className="w-4/6 py-1 px-1">
+              <p className="font-bold">LOCK ICON</p>
+              <p>
+                Browse our exclusive selection of top-rated properties. From
+                modern apartments in the city to spacious homes in the suburbs,
+                we have something to suit every lifestyle and budget.
+              </p>
             </div>
           </div>
         </div>
