@@ -68,7 +68,7 @@ export default function Home() {
             <div className="px-1">
               <p className="text-[#ccaf7a] pb-3 text-left">Building Type</p>
               <select
-                className="border border-gray-200 rounded-full bg-[#f2f2f2] text-[14px] w-52 focus:outline-none focus:ring-2 focus:ring-[#ccaf7a] focus:border-[#ccaf7a] text-gray-700 w-full"
+                className="border border-gray-200 rounded-full bg-[#f2f2f2] text-[14px] w-[12.5rem] focus:outline-none focus:ring-2 focus:ring-[#ccaf7a] focus:border-[#ccaf7a] text-gray-700"
                 name="cars"
                 id="cars"
               >
@@ -81,7 +81,7 @@ export default function Home() {
             <div className="px-1">
               <p className="text-[#ccaf7a] pb-3 text-left">Category</p>
               <select
-                className="border border-gray-200 rounded-full bg-[#f2f2f2] text-[14px] w-52 focus:outline-none focus:ring-2 focus:ring-[#ccaf7a] focus:border-[#ccaf7a] text-gray-700 w-full"
+                className="border border-gray-200 rounded-full bg-[#f2f2f2] text-[14px] w-[12.5rem] focus:outline-none focus:ring-2 focus:ring-[#ccaf7a] focus:border-[#ccaf7a] text-gray-700"
                 name="cars"
                 id="cars"
               >
@@ -94,7 +94,7 @@ export default function Home() {
             <div className="px-1">
               <p className="text-[#ccaf7a] pb-3 text-left">Location</p>
               <select
-                className="border border-gray-200 rounded-full bg-[#f2f2f2] text-[14px] w-52 focus:outline-none focus:ring-2 focus:ring-[#ccaf7a] focus:border-[#ccaf7a] text-gray-700 w-full"
+                className="border border-gray-200 rounded-full bg-[#f2f2f2] text-[14px] w-[12.5rem] focus:outline-none focus:ring-2 focus:ring-[#ccaf7a] focus:border-[#ccaf7a] text-gray-700"
                 name="cars"
                 id="cars"
               >
@@ -107,7 +107,7 @@ export default function Home() {
             <div className="px-1">
               <p className="text-[#ccaf7a] pb-3 text-left">Style</p>
               <select
-                className="border border-gray-200 rounded-full bg-[#f2f2f2] text-[14px] w-52 focus:outline-none focus:ring-2 focus:ring-[#ccaf7a] focus:border-[#ccaf7a] text-gray-700 w-full"
+                className="border border-gray-200 rounded-full bg-[#f2f2f2] text-[14px] w-[12.5rem] focus:outline-none focus:ring-2 focus:ring-[#ccaf7a] focus:border-[#ccaf7a] text-gray-700"
                 name="cars"
                 id="cars"
               >
@@ -128,10 +128,10 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="handpicked-properties py-16 px-7">
+        <div className="py-16  w-3/4 mx-auto" id="handpicked-properties">
           <div className="flex justify-center">
-            <div className="px-3">
-              <h1 className="text-[2rem] leading-tight">
+            <div className="text-left">
+              <h1 className="text-[2rem] leading-tight pr-5">
                 Handpicked Properties
               </h1>
             </div>
@@ -143,6 +143,38 @@ export default function Home() {
                 we have something to suit every lifestyle and budget.
               </p>
             </div>
+          </div>
+        </div>
+
+        <div id="three-house-photos" className="px-36">
+          <div className="flex justify-between space-x-4">
+            <div
+              style={{
+                backgroundImage: "url('/houses/minimalist.jpg')",
+                backgroundSize: "cover", // Ensures the image covers the entire div
+                backgroundPosition: "center", // Centers the image within the div
+                backgroundRepeat: "no-repeat",
+              }}
+              className="h-[260px] w-1/3 rounded-2xl"
+            ></div>
+            <div
+              style={{
+                backgroundImage: "url('/houses/grasshouse.jpeg')",
+                backgroundSize: "cover", // Ensures the image covers the entire div
+                backgroundPosition: "center", // Centers the image within the div
+                backgroundRepeat: "no-repeat",
+              }}
+              className="h-[260px] w-1/3 rounded-2xl"
+            ></div>
+            <div
+              style={{
+                backgroundImage: "url('/houses/heavenHouse.jpeg')",
+                backgroundSize: "cover", // Ensures the image covers the entire div
+                backgroundPosition: "center", // Centers the image within the div
+                backgroundRepeat: "no-repeat",
+              }}
+              className="h-[260px] w-1/3 rounded-2xl"
+            ></div>
           </div>
         </div>
       </section>
