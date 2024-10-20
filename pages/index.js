@@ -62,7 +62,10 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="filtering bg-white py-8 relative rounded-t-3xl -top-10 z-20">
+      <section
+        className="filtering bg-white py-8 relative rounded-t-3xl -top-10 z-20"
+        id="Filtering-and-displaying-images"
+      >
         <div className="relative" id="search-filtering-section">
           <div className="flex justify-center items-center">
             <div className="px-1">
@@ -146,7 +149,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div id="three-house-photos" className="px-36">
+        <div id="three-house-photos" className="px-28">
           <div className="flex justify-between space-x-4">
             <div
               style={{
@@ -194,6 +197,16 @@ export default function Home() {
               </div>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section className="bg-white px-28 py-10" id="houses-images">
+        <div className="h-[460px] rounded-2xl relative group overflow-hidden">
+          <img
+            src="/houses/apartments.jpg"
+            alt="Heaven House"
+            className="h-full w-full object-cover"
+          />
         </div>
       </section>
     </div>
