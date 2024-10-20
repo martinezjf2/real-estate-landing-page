@@ -55,8 +55,8 @@ export default function Home() {
           </div>
           <div>
             <p className="w-4/6 mx-auto pt-7 text-[#67686a]">
-              Whether you're buying, selling, or nothing, our experienced team
-              is here to guide you every step of the way.
+              Whether you`&rsquo;`re buying, selling, or nothing, our
+              experienced team is here to guide you every step of the way.
             </p>
           </div>
         </div>
