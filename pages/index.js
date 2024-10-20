@@ -139,8 +139,8 @@ export default function Home() {
               </h1>
             </div>
             <div className="w-4/6 py-1 pl-14">
-              <p className="font-bold">LOCK ICON</p>
-              <p className="">
+              <p className="font-bold px-12">LOCK ICON</p>
+              <p className="px-12">
                 Browse our exclusive selection of top-rated properties. From
                 modern apartments in the city to spacious homes in the suburbs,
                 we have something to suit every lifestyle and budget.
@@ -200,7 +200,49 @@ export default function Home() {
         </div>
       </section>
 
-      <section></section>
+      <section className="">
+        <div className="flex justify-center">
+          <div className="pl-28 w-1/2">
+            <h1 className="text-[30px] py-3">
+              Comprehensive Real <br></br>Estate Solutions
+            </h1>
+          </div>
+          <div className="w-1/2 px-10">
+            <div className="py-5">
+              <div className="flex justify-start items-center pb-5">
+                <div className="pr-2">ICON</div>
+                <div className="text-xl font-medium">Property Rentals</div>
+              </div>
+              <div className="pr-9 text-[#ababab]">
+                We offer an extensive selection of rental propoerties, including
+                furnished and unfurnished options across prime locations
+              </div>
+            </div>
+            <div className="w-11/12 h-[2px] bg-gray-100"></div>
+            <div className="py-5">
+              <div className="flex justify-start items-center pb-5">
+                <div className="pr-2">ICON</div>
+                <div className="text-xl font-medium">Property Management</div>
+              </div>
+              <div className="pr-9 text-[#ababab]">
+                We offer an extensive selection of rental propoerties, including
+                furnished and unfurnished options across prime locations
+              </div>
+            </div>
+            <div className="w-11/12 h-[2px] bg-gray-100"></div>
+            <div className="py-5">
+              <div className="flex justify-start items-center pb-5">
+                <div className="pr-2">ICON</div>
+                <div className="text-xl font-medium">Investment Advice</div>
+              </div>
+              <div className="pr-9 text-[#ababab]">
+                We offer an extensive selection of rental propoerties, including
+                furnished and unfurnished options across prime locations
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <section className="bg-white px-28 py-10 relative" id="houses-images">
         <div
