@@ -200,13 +200,27 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="bg-white px-28 py-10" id="houses-images">
-        <div className="h-[460px] rounded-2xl relative group overflow-hidden">
-          <img
-            src="/houses/apartments.jpg"
-            alt="Heaven House"
-            className="h-full w-full object-cover"
-          />
+      <section></section>
+
+      <section className="bg-white px-28 py-10 relative" id="houses-images">
+        <div
+          style={{
+            backgroundImage: "url('/houses/one-house.jpg')",
+            backgroundSize: "cover", // Ensures the image covers the entire div
+            backgroundPosition: "center", // Centers the image within the div
+            backgroundRepeat: "no-repeat",
+          }}
+          className="h-[450px] rounded-2xl relative group overflow-hidden object-fit p-9"
+        >
+          <div>
+            <h1 className="font-medium text-[24px]">Reach out to us!</h1>
+          </div>
+          <div>
+            <p className="text-[#7a7c7e] w-3/6">
+              Ready to look for your future apartment? Our team is ready to
+              assist you! Contact Us!
+            </p>
+          </div>
         </div>
       </section>
     </div>
