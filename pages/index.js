@@ -1,45 +1,14 @@
 import Image from "next/image";
 import { Inter } from "next/font/google";
+import Footer from "@/components/Footer";
+import Navbar from "@/components/Navbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
     <div>
-      <section id="navbar" className="relative bg-white py-7">
-        <div className="flex justify-between px-9 ">
-          <div className="flex">
-            <div>Logo Image</div>
-            <div>Portos</div>
-          </div>
-          <div>
-            <div>
-              <a className="px-7" href="#">
-                Home
-              </a>
-              <a className="px-7" href="#">
-                About Us
-              </a>
-              <a className="px-7" href="#">
-                Properties
-              </a>
-              <a className="px-7" href="#">
-                Services
-              </a>
-            </div>
-          </div>
-          <div>
-            <div className="">
-              <a
-                className="bg-[#9c6700] px-5 py-3 text-white rounded-full"
-                href="#"
-              >
-                Contact Us
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
+      <Navbar />
 
       <section
         id="hero"
@@ -55,8 +24,8 @@ export default function Home() {
           </div>
           <div>
             <p className="w-4/6 mx-auto pt-7 text-[#67686a]">
-              Whether you`&rsquo;`re buying, selling, or nothing, our
-              experienced team is here to guide you every step of the way.
+              Whether you&rsquo;re buying, selling, or nothing, our experienced
+              team is here to guide you every step of the way.
             </p>
           </div>
         </div>
@@ -267,92 +236,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="footer" className="bg-[#010101]">
-        <div className="text-[#686868] py-9 px-18 flex justify-evenly">
-          <div>
-            <h3 className="pb-4 font-medium text-[#f0f0f0]">Quick Links</h3>
-            <a className="block pb-3" href="#">
-              Home
-            </a>
-            <a className="block pb-3" href="#">
-              Home
-            </a>
-            <a className="block pb-3" href="#">
-              Home
-            </a>
-            <a className="block" href="#">
-              Home
-            </a>
-          </div>
-          <div>
-            <h3 className="pb-4 font-medium text-[#f0f0f0]">Quick Links</h3>
-            <a className="block pb-3" href="#">
-              Home
-            </a>
-            <a className="block pb-3" href="#">
-              Home
-            </a>
-            <a className="block pb-3" href="#">
-              Home
-            </a>
-            <a className="block" href="#">
-              Home
-            </a>
-          </div>
-          <div>
-            <h3 className="pb-4 font-medium text-[#f0f0f0]">Quick Links</h3>
-            <a className="block pb-3" href="#">
-              Home
-            </a>
-            <a className="block pb-3" href="#">
-              About Us
-            </a>
-            <a className="block pb-3" href="#">
-              Properties
-            </a>
-            <a className="block" href="#">
-              Services
-            </a>
-          </div>
-          <div>
-            <h3 className="pb-4 font-medium text-[#f0f0f0]">Find Us</h3>
-            <a className="block pb-3" href="#">
-              Facebook
-            </a>
-            <a className="block pb-3" href="#">
-              Instagram
-            </a>
-            <a className="block pb-3" href="#">
-              Twitter
-            </a>
-            <a className="block" href="#">
-              Linkedin
-            </a>
-          </div>
-          <div className="w-3/12">
-            <h3 className="pb-4 font-medium text-[#f0f0f0]">
-              Newsletter Signup
-            </h3>
-            <p className="pb-3 text-[14px]">
-              Stay updated with the listings from Portos. Sign up for our
-              newsletter
-            </p>
-            <form className="relative">
-              <input
-                type="email"
-                className="bg-[#1a1a1a] border-none rounded-full pl-5 py-3 w-full text-[12px] pr-20" // Added pr-20 for space for the button
-                placeholder="Enter your email"
-              />
-              <button
-                type="submit"
-                className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-[#9c6700] text-white px-4 py-2 rounded-full text-sm"
-              >
-                Submit
-              </button>
-            </form>
-          </div>
-        </div>
-      </section>
+      <Footer />
     </div>
   );
 }
