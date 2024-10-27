@@ -89,7 +89,7 @@ export default function Home() {
                 <option value="audi">Audi</option>
               </select>
             </div>
-            <div className="px-1 mt-7">
+            <div className="px-1 mt-9">
               <a
                 className="bg-[#9c6700] px-5 py-3 text-white rounded-full"
                 href="#"

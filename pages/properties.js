@@ -15,3 +15,5 @@ export default function Properties() {
     </div>
   );
 }
+
+// Replicate this page: https://www.onekeymls.com/

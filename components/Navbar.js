@@ -3,7 +3,7 @@ import Link from "next/link"; // Import Link from Next.js
 
 export default function Navbar() {
   return (
-    <section id="navbar" className="relative bg-white py-7">
+    <section id="navbar" className="relative bg-white py-7 shadow-md">
       <div className="flex justify-between px-9 ">
         <div className="flex">
           <div>Logo Image</div>
