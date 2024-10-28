@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Navbar() {
@@ -8,8 +9,10 @@ export default function Navbar() {
     <section id="navbar" className="relative bg-white py-5 shadow-md">
       <div className="flex justify-between items-center px-6 md:px-9">
         {/* Logo */}
-        <div className="flex items-center space-x-2">
-          <div>Logo Image</div>
+        <div className="flex justify-start items-center space-x-2">
+          <div>
+            <Image src="/houses/logo.png" alt="logo" width={30} height={30} />
+          </div>
           <div className="font-semibold text-lg">Portos</div>
         </div>
 
