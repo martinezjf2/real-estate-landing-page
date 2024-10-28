@@ -17,6 +17,7 @@ export default function Document() {
               gtag('config', 'G-T94Q6D7ZC3');
             `}
         </script>
+        <title>Portos | Real Estate Landing Page</title>
       </Head>
       <body>
         <Main />
