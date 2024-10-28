@@ -2,7 +2,6 @@ import Image from "next/image";
 import { Inter } from "next/font/google";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
-import ComingSoon from "@/components/ComingSoon";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -24,6 +23,15 @@ export default function Properties() {
     },
     // Add more properties as needed
   ];
+
+  const servicesData = [
+    "Property Management",
+    "Real Estate Consulting",
+    "Home Staging",
+    "Market Analysis",
+    "Investment Strategies",
+  ];
+
   return (
     <div>
       <Navbar />
@@ -53,9 +61,36 @@ export default function Properties() {
         </div>
       </div>
 
+      {/* About Our Properties Section */}
+      <div className="px-8 py-16 bg-gray-100 text-center">
+        <h2 className="text-2xl font-semibold mb-6">About Our Properties</h2>
+        <p className="max-w-3xl mx-auto text-gray-700 mb-4">
+          At Portos, we pride ourselves on offering a curated selection of
+          luxury properties that cater to diverse lifestyles and tastes. Our
+          portfolio includes everything from stunning beachfront villas to
+          modern urban apartments, all equipped with top-of-the-line amenities
+          and situated in prime locations. Whether you&lsquo;re looking for a
+          new home or an investment opportunity, we ensure a seamless and
+          rewarding experience for our clients.
+        </p>
+        <p className="max-w-3xl mx-auto text-gray-700">
+          Explore our listings to find your perfect property today!
+        </p>
+      </div>
+
+      {/* Services Section */}
+      <div className="px-8 py-16 text-center">
+        <h2 className="text-2xl font-semibold mb-6">Our Services</h2>
+        <ul className="max-w-2xl mx-auto space-y-3 text-gray-700">
+          {servicesData.map((service, index) => (
+            <li key={index} className="text-lg">
+              • {service}
+            </li>
+          ))}
+        </ul>
+      </div>
+
       <Footer />
     </div>
   );
 }
-
-// Replicate this page: https://www.onekeymls.com/
