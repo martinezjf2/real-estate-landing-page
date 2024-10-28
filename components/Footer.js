@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -7,18 +8,18 @@ export default function Footer() {
         {/* Quick Links */}
         <div className="mb-6 md:mb-0">
           <h3 className="pb-4 font-medium text-[#f0f0f0]">Quick Links</h3>
-          <a className="block pb-3" href="#">
+          <Link href="/" className="block pb-3">
             Home
-          </a>
-          <a className="block pb-3" href="#">
+          </Link>
+          <Link href="/about" className="block pb-3">
             About Us
-          </a>
-          <a className="block pb-3" href="#">
+          </Link>
+          <Link href="/properties" className="block pb-3">
             Properties
-          </a>
-          <a className="block" href="#">
+          </Link>
+          <Link href="/services" className="block">
             Services
-          </a>
+          </Link>
         </div>
 
         {/* Find Us */}

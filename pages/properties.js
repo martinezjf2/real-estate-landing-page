@@ -4,17 +4,6 @@ import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import Head from "next/head";
 
-// Import Swiper and Swiper styles
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
-
-import SwiperCore, { Navigation, Pagination } from "swiper";
-
-// Install Swiper modules
-SwiperCore.use([Navigation, Pagination]);
-
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Properties() {
