@@ -24,7 +24,8 @@
     "react-dom": "^18",
     "sass": "^1.75.0",
     "sass-loader": "^14.2.0",
-    "style-loader": "^4.0.0"
+    "style-loader": "^4.0.0",
+    "swiper": "^11.1.14"
   },
   "devDependencies": {
     "eslint": "^8",
