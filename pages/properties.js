@@ -21,68 +21,67 @@ export default function Properties() {
   const propertiesData = [
     {
       id: 1,
-      image: "/houses/apartments.jpg",
+      image: "/purchase-houses/1.jpg",
       title: "Luxury Villa",
       location: "Malibu",
       price: "$3,000,000",
     },
     {
       id: 2,
-      image: "/houses/apartments.jpg",
-      title: "Modern Apartment",
-      location: "New York",
-      price: "$1,200,000",
+      image: "/purchase-houses/2.jpg",
+      title: "Beachfront Condo",
+      location: "Miami",
+      price: "$850,000",
     },
     {
       id: 3,
-      image: "/houses/apartments.jpg",
-      title: "Modern Apartment",
-      location: "New York",
-      price: "$1,200,000",
+      image: "/purchase-houses/3.jpg",
+      title: "Country Cottage",
+      location: "Napa Valley",
+      price: "$1,100,000",
     },
     {
       id: 4,
-      image: "/houses/apartments.jpg",
-      title: "Modern Apartment",
-      location: "New York",
-      price: "$1,200,000",
+      image: "/purchase-houses/4.jpg",
+      title: "Urban Penthouse",
+      location: "Chicago",
+      price: "$2,500,000",
     },
     {
       id: 5,
-      image: "/houses/apartments.jpg",
-      title: "Modern Apartment",
-      location: "New York",
-      price: "$1,200,000",
+      image: "/purchase-houses/5.jpg",
+      title: "Mountain Lodge",
+      location: "Aspen",
+      price: "$1,750,000",
     },
     {
       id: 6,
-      image: "/houses/apartments.jpg",
-      title: "Modern Apartment",
-      location: "New York",
-      price: "$1,200,000",
+      image: "/purchase-houses/6.jpg",
+      title: "Historic Townhouse",
+      location: "Boston",
+      price: "$1,300,000",
     },
     {
       id: 7,
-      image: "/houses/apartments.jpg",
-      title: "Modern Apartment",
-      location: "New York",
-      price: "$1,200,000",
+      image: "/purchase-houses/7.jpg",
+      title: "Modern Ranch",
+      location: "Austin",
+      price: "$950,000",
     },
     {
       id: 8,
-      image: "/houses/apartments.jpg",
-      title: "Modern Apartment",
-      location: "New York",
+      image: "/purchase-houses/8.jpg",
+      title: "Lakeview Cabin",
+      location: "Lake Tahoe",
       price: "$1,200,000",
     },
     {
       id: 9,
-      image: "/houses/apartments.jpg",
-      title: "Modern Apartment",
-      location: "New York",
-      price: "$1,200,000",
+      image: "/purchase-houses/9.jpg",
+      title: "Luxury High-Rise",
+      location: "Los Angeles",
+      price: "$3,500,000",
     },
-    // Add more properties as needed
   ];
 
   const servicesData = [
@@ -116,8 +115,8 @@ export default function Properties() {
                     src={property.image}
                     alt={property.title}
                     width={500}
-                    height={500}
-                    className="rounded-lg w-full"
+                    height={300}
+                    className="rounded-lg w-full h-full object-cover"
                   />
                   <div className="absolute bottom-0 left-0 right-0 md:overflow-hidden bg-black bg-opacity-70 p-4 text-white opacity-0 transition-opacity duration-300 hover:opacity-100 rounded-md hover:shadow-lg">
                     <h2 className="text-lg font-semibold">{property.title}</h2>
