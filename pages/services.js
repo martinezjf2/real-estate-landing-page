@@ -14,35 +14,35 @@ export default function Services() {
       title: "Property Listings",
       description:
         "Browse a curated selection of properties for sale or rent, tailored to fit various needs and budgets.",
-      image: "/images/property-listings.jpg",
+      image: "/estate-services/listings.jpg",
     },
     {
       id: 2,
       title: "Consultations",
       description:
         "Book a one-on-one consultation with our real estate experts to help you make informed decisions.",
-      image: "/images/consultations.jpg",
+      image: "/estate-services/consultations.png",
     },
     {
       id: 3,
       title: "Market Analysis",
       description:
         "Receive comprehensive market analysis reports to understand property value trends in different neighborhoods.",
-      image: "/images/market-analysis.jpg",
+      image: "/estate-services/market.png",
     },
     {
       id: 4,
       title: "Virtual Tours",
       description:
         "Explore properties remotely with our high-quality, interactive virtual tours.",
-      image: "/images/virtual-tours.jpg",
+      image: "/estate-services/virtualTours.jpg",
     },
     {
       id: 5,
       title: "Legal Assistance",
       description:
         "Our legal team assists with contracts, negotiations, and paperwork to ensure smooth transactions.",
-      image: "/images/legal-assistance.jpg",
+      image: "/estate-services/legal.jpg",
     },
   ];
 
@@ -77,7 +77,7 @@ export default function Services() {
                   alt={service.title}
                   width={500}
                   height={300}
-                  className="rounded-t-lg"
+                  className="rounded-t-lg w-full h-[180px] object-cover"
                   objectFit="cover"
                 />
                 <div className="p-6 space-y-4">
