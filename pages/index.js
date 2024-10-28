@@ -2,6 +2,7 @@ import Image from "next/image";
 import { Inter } from "next/font/google";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
+import { FaHome, FaComments, FaCog, FaLock } from "react-icons/fa";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -93,7 +94,12 @@ export default function Home() {
             </div>
 
             <div className="w-full md:w-4/6 py-1 pl-0 md:pl-14">
-              <p className="font-bold md:px-0">LOCK ICON</p>
+              <p className="font-bold md:px-0 flex items-center space-x-2 pb-2">
+                <FaLock size={20} className="text-gray-700" />
+                <span className="text-lg font-medium pt-1">
+                  Exclusive Properties
+                </span>
+              </p>
               <p className="md:px-0">
                 Browse our exclusive selection of top-rated properties. From
                 modern apartments in the city to spacious homes in the suburbs,
@@ -166,9 +172,13 @@ export default function Home() {
             <div className="w-full md:w-1/2 px-0 md:px-10">
               <div className="py-5 hidden md:flex flex-col space-y-5">
                 {/* Property Rentals */}
-                <div className="flex justify-start items-center pb-5">
-                  <div className="pr-2">ICON</div>
-                  <div className="text-xl font-medium">Property Rentals</div>
+                <div className="flex justify-start items-center pb-1">
+                  <div className="h-[40px] w-[40px] bg-[#e7e0d1] flex justify-center items-center rounded-full">
+                    <FaHome size={22} />
+                  </div>
+                  <div className="text-xl font-medium pl-2">
+                    Property Rentals
+                  </div>
                 </div>
                 <div className="pr-9 text-[#ababab]">
                   We offer an extensive selection of rental properties,
@@ -177,9 +187,11 @@ export default function Home() {
                 </div>
 
                 {/* Buying Guide */}
-                <div className="flex justify-start items-center pb-5">
-                  <div className="pr-2">ICON</div>
-                  <div className="text-xl font-medium">Buying Guide</div>
+                <div className="flex justify-start items-center pb-1">
+                  <div className="h-[40px] w-[40px] bg-[#e7e0d1] flex justify-center items-center rounded-full">
+                    <FaComments size={22} />
+                  </div>
+                  <div className="text-xl font-medium pl-2">Buying Guide</div>
                 </div>
                 <div className="pr-9 text-[#ababab]">
                   Our comprehensive buying guide is designed to help you
@@ -188,9 +200,13 @@ export default function Home() {
                 </div>
 
                 {/* Property Management */}
-                <div className="flex justify-start items-center pb-5">
-                  <div className="pr-2">ICON</div>
-                  <div className="text-xl font-medium">Property Management</div>
+                <div className="flex justify-start items-center pb-1">
+                  <div className="h-[40px] w-[40px] bg-[#e7e0d1] flex justify-center items-center rounded-full">
+                    <FaCog size={22} />
+                  </div>
+                  <div className="text-xl font-medium pl-2">
+                    Property Management
+                  </div>
                 </div>
                 <div className="pr-9 text-[#ababab]">
                   We provide full property management services to ensure your
@@ -199,11 +215,15 @@ export default function Home() {
               </div>
 
               {/* Responsive Layout for Smaller Screens */}
-              <div className="md:hidden w-11/12 mx-auto pb-5">
+              <div className="md:hidden w-11/12 mx-auto pt-3 pb-4">
                 {/* Property Rentals */}
                 <div className="flex justify-start items-center pb-3">
-                  <p className="font-bold md:px-0">ICON</p>
-                  <h1 className="pl-2 text-xl font-medium">Property Rentals</h1>
+                  <div className="h-[40px] w-[40px] bg-[#e7e0d1] flex justify-center items-center rounded-full">
+                    <FaCog size={22} />
+                  </div>
+                  <div className="text-xl font-medium pl-2">
+                    Property Rentals
+                  </div>
                 </div>
                 <p className="md:px-0 text-[#ababab]">
                   We offer an extensive selection of rental properties,
@@ -212,11 +232,13 @@ export default function Home() {
                 </p>
               </div>
 
-              <div className="md:hidden w-11/12 mx-auto pb-5">
+              <div className="md:hidden w-11/12 mx-auto pb-4">
                 {/* Buying Guide */}
                 <div className="flex justify-start items-center pb-3">
-                  <p className="font-bold md:px-0">ICON</p>
-                  <h1 className="pl-2 text-xl font-medium">Buying Guide</h1>
+                  <div className="h-[40px] w-[40px] bg-[#e7e0d1] flex justify-center items-center rounded-full">
+                    <FaCog size={22} />
+                  </div>
+                  <div className="text-xl font-medium pl-2">Buying Guide</div>
                 </div>
                 <p className="md:px-0 text-[#ababab]">
                   Our comprehensive buying guide is designed to help you
@@ -225,13 +247,15 @@ export default function Home() {
                 </p>
               </div>
 
-              <div className="md:hidden w-11/12 mx-auto pb-5">
+              <div className="md:hidden w-11/12 mx-auto pb-4">
                 {/* Property Management */}
                 <div className="flex justify-start items-center pb-3">
-                  <p className="font-bold md:px-0">ICON</p>
-                  <h1 className="pl-2 text-xl font-medium">
+                  <div className="h-[40px] w-[40px] bg-[#e7e0d1] flex justify-center items-center rounded-full">
+                    <FaCog size={22} />
+                  </div>
+                  <div className="text-xl font-medium pl-2">
                     Property Management
-                  </h1>
+                  </div>
                 </div>
                 <p className="md:px-0 text-[#ababab]">
                   We provide full property management services to ensure your
